@@ -3,7 +3,7 @@
     Private Sub Form1_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
         'TODO: This line of code loads data into the 'TryshcDataSet1.Login' table. You can move, or remove it, as needed.
         Me.LoginTableAdapter.Fill(Me.TryshcDataSet1.Login)
-
+        hannah()
     End Sub
 
     Private Sub LoginBindingNavigatorSaveItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
